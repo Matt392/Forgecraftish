@@ -1,0 +1,39 @@
+[16:17:24] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[16:17:24] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_11]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_11]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_11]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_11]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_11]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_11]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_11]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_11]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_11]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_11]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_11]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
+[16:17:55] [Server thread/INFO]: Loading properties
+[16:17:55] [Server thread/INFO]: Default game type: SURVIVAL
+[16:17:55] [Server thread/INFO]: Generating keypair
+[16:17:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:18:07] [Server thread/INFO]: Preparing level "world"
+[16:18:08] [Server thread/INFO]: Preparing start region for level 0
+[16:18:09] [Server thread/INFO]: Preparing spawn area: 89%
+[16:18:09] [Server thread/INFO]: Done (2.524s)! For help, type "help" or "?"
+[16:18:17] [User Authenticator #1/INFO]: UUID of player Radex392 is b7194cc8-ab75-41bd-813e-6dd80c8d1535
+[16:18:17] [Server thread/INFO]: Radex392[/192.168.0.5:5090] logged in with entity id 284 at (152.5, 67.0, 263.5)
+[16:18:17] [Server thread/INFO]: Radex392 joined the game
+[16:19:03] [Server thread/INFO]: Radex392 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[16:19:03] [Server thread/INFO]: Radex392 left the game
+[16:19:09] [Server thread/INFO]: Stopping server
+[16:19:09] [Server thread/INFO]: Saving players
+[16:19:09] [Server thread/INFO]: Saving worlds
+[16:19:09] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[16:19:09] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[16:19:09] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[16:19:09] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[16:19:09] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[16:19:09] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[16:19:09] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[16:19:09] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
